@@ -1,138 +1,312 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
-   <link rel="stylesheet" href="style.css">
+
+    <title>Salvoni | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Salvoni</h1>
-        <p>Welcome to my portfolio! I enjoy creating user-friendly websites and learning new web technologies.</p>
+
+    <!-- Navbar -->
+    <header class="header" id="home">
+        <nav class="navbar">
+            <h2 class="logo">Salvoni<span>.</span></h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#education">Education</a></li>
-        </ul>
 
-    </nav>
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <img src="images/profile.jpg" alt="Profile Picture" width="200">
-            <p>
-                Hello! My name is Salvoni.
-                I am from Mukerian.
-                I have completed my BCA.
-                Currently, I am learning MERN Stack.
-            </p>
 
-        </section>
-        <section id="projects">
-            <h2>My Projects</h2>
-            <p>Here are some of the projects I have worked on:</p>
-            <div class="project-container">
-                <article>
-                    <h3>Project 1: Github profile finder</h3>
-                    <img src="images/github-profile-finder.jpg" alt="Github Profile Finder" width="300">
-                    <p>This project allows users to search for Github profiles and view their repositories and other
-                        details.</p>
-                    <a href="https://github.com/salvonilahoria78-sudo/todo_app/blob/master/project6.html"
-                        target="_blank">View Project</a>
-                </article>
-                <article>
-                    <h3>Project 2: Todo app</h3>
-                    <img src="images/todo-app.jpg" alt="Todo App" width="300">
-                    <p>This project is a simple todo list application that allows users to add, edit, and delete tasks.
-                    </p>
-                    <a href="https://github.com/salvonilahoria78-sudo/todo_app/blob/master/todo.html"
-                        target="_blank">View Project</a>
-                </article>
-                <article>
-                    <h3>Project 3: Weather App</h3>
-                    <img src="images/weather-app.jpg" alt="Weather App" width="300">
-                    <p>This project provides weather information for a given location using a weather API.</p>
-                    <a href="https://github.com/salvonilahoria78-sudo/todo_app/blob/master/project5.html"
-                        target="_blank">View Project</a>
-                </article>
-                <article>
-                    <h3>Project 4: pomodoro app</h3>
-                    <img src="images/pomodoro-app.jpg" alt="Pomodoro App" width="300">
-                    <p>This project is a productivity app based on the Pomodoro Technique, helping users manage their
-                        time effectively.</p>
-                    <a href="https://github.com/salvonilahoria78-sudo/todo_app/blob/master/project2.html"
-                        target="_blank">View Project</a>
-                </article>
-                <article>
-                    <h3>Project 5: currency converter app</h3>
-                    <img src="images/currency-converter-app.jpg" alt="Currency Converter App" width="300">
-                    <p>This project converts currency values between different countries using real-time exchange rates.
-                    </p>
-                    <a href="https://github.com/salvonilahoria78-sudo/todo_app/blob/master/project3.html"
-                        target="_blank">View Project</a>
-                </article>
-                <article>
-                    <h3>Project 6: Meme Generator</h3>
-                    <img src="images/meme-generator.jpg" alt="Meme Generator" width="300">
-                    <p>This project allows users to create custom memes by adding text to popular meme templates.</p>
-                    <a href="https://github.com/salvonilahoria78-sudo/todo_app/blob/master/project1.html"
-                        target="_blank">View Project</a>
-                </article>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hi, I'm <span>Salvoni</span></h1>
+
+                <h2>Frontend Developer & MERN Stack Learner</h2>
+
+                <p>
+                    I enjoy creating modern, responsive and user-friendly
+                    websites. I love learning new technologies and turning
+                    creative ideas into real projects.
+                </p>
+
+                <a href="#projects" class="btn">Explore My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/profile.jpg" alt="Salvoni Profile Picture">
             </div>
         </section>
-        <section id="skills">
-            <h2>My Skills</h2>
-            <p>Here are some of the skills I have acquired:</p>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Node.js</li>
 
-            </ul>
+        <!-- About Section -->
+        <section class="section about" id="about">
+
+            <div class="section-heading">
+                <p>GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-content">
+                <div>
+                    <h3>I'm Salvoni, a passionate web developer.</h3>
+
+                    <p>
+                        I am from Mukerian, Punjab, and I have completed
+                        my Bachelor of Computer Applications (BCA).
+                    </p>
+
+                    <p>
+                        Currently, I am learning MERN Stack Development
+                        at Vali DevEx Hub, Mohali. I enjoy developing
+                        interactive websites and learning how frontend
+                        and backend technologies work together.
+                    </p>
+
+                    <p>
+                        My goal is to become a skilled Full Stack Web
+                        Developer and build useful applications that
+                        provide a great user experience.
+                    </p>
+                </div>
+            </div>
+
         </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>If you would like to get in touch, please feel free to reach out via email or connect with me on
-                LinkedIn.</p>
-            <ul>
-                <li>Email: <a href="mailto:salvoni@example.com">salvoni@example.com</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/salvoni" target="_blank">linkedin.com/in/salvoni</a>
-                </li>
-            </ul>
+
+        <!-- Skills Section -->
+        <section class="section skills" id="skills">
+
+            <div class="section-heading">
+                <p>WHAT I KNOW</p>
+                <h2>My Skills</h2>
+            </div>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <h3>HTML5</h3>
+                    <p>Creating structured and semantic web pages.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>CSS3</h3>
+                    <p>Designing attractive and responsive layouts.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Adding interactive functionality to websites.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>React.js</h3>
+                    <p>Building reusable and dynamic UI components.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Node.js</h3>
+                    <p>Working with server-side JavaScript.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Express.js</h3>
+                    <p>Creating backend routes and REST APIs.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>MongoDB</h3>
+                    <p>Storing and managing application data.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Tailwind CSS</h3>
+                    <p>Creating modern interfaces with utility classes.</p>
+                </div>
+
+            </div>
+
         </section>
 
-        <section id="education">
-            <h2>My Education</h2>
-            <article>
-                <h3>Bachelor of Computer Applications (BCA)</h3>
-                <p>Swami Premanand Mahavidyalaya, Mukerian</p>
-                <p>Completed</p>
-            </article>
+        <!-- Projects Section -->
+        <section class="section projects" id="projects">
 
-            <article>
-                <h3>MERN Stack Development</h3>
-                <p>Currently learning at Vali DevEx Hub</p>
-                <p>Learning HTML, CSS, JavaScript, React, Node.js,
-                    Express.js and MongoDB.</p>
-            </article>
+            <div class="section-heading">
+                <p>MY RECENT WORK</p>
+                <h2>My Projects</h2>
+            </div>
 
+            <div class="project-container">
+
+                <article class="project-card">
+                    <div class="project-number">01</div>
+                    <h3>Velmora Beauty</h3>
+                    <p>
+                        A skincare and beauty e-commerce application
+                        featuring user authentication, product listings,
+                        wishlist and shopping cart functionality.
+                    </p>
+                    <span>React | Node.js | Express | MongoDB</span>
+                    <a href="https://github.com/salvonilahoria78-sudo"
+                        target="_blank" rel="noopener noreferrer">
+                        View GitHub →
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">02</div>
+                    <h3>Todo App</h3>
+                    <p>
+                        A task management application that allows
+                        users to add, edit, delete and manage their tasks.
+                    </p>
+                    <span>HTML | CSS | JavaScript</span>
+                    <a href="https://github.com/salvonilahoria78-sudo"
+                        target="_blank" rel="noopener noreferrer">
+                        View GitHub →
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">03</div>
+                    <h3>Weather App</h3>
+                    <p>
+                        A weather application that displays weather
+                        information for different locations using an API.
+                    </p>
+                    <span>HTML | CSS | JavaScript | API</span>
+                    <a href="https://github.com/salvonilahoria78-sudo"
+                        target="_blank" rel="noopener noreferrer">
+                        View GitHub →
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">04</div>
+                    <h3>GitHub Finder</h3>
+                    <p>
+                        A web application that allows users to search
+                        GitHub profiles and explore public repositories.
+                    </p>
+                    <span>HTML | CSS | JavaScript | API</span>
+                    <a href="https://github.com/salvonilahoria78-sudo"
+                        target="_blank" rel="noopener noreferrer">
+                        View GitHub →
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">05</div>
+                    <h3>Meme Generator</h3>
+                    <p>
+                        An interactive application that allows users
+                        to create custom memes using images and text.
+                    </p>
+                    <span>HTML | CSS | JavaScript</span>
+                    <a href="https://github.com/salvonilahoria78-sudo"
+                        target="_blank" rel="noopener noreferrer">
+                        View GitHub →
+                    </a>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Education Section -->
+        <section class="section education" id="education">
+
+            <div class="section-heading">
+                <p>MY QUALIFICATIONS</p>
+                <h2>Education</h2>
+            </div>
+
+            <div class="education-container">
+
+                <article class="education-card">
+                    <h3>Bachelor of Computer Applications (BCA)</h3>
+                    <p>Swami Premanand Mahavidyalaya, Mukerian</p>
+                    <span>Completed</span>
+                </article>
+
+                <article class="education-card">
+                    <h3>MERN Stack Development</h3>
+                    <p>Vali DevEx Hub, Mohali</p>
+                    <span>Currently Learning</span>
+                    <p>
+                        Learning HTML, CSS, JavaScript, React,
+                        Node.js, Express.js and MongoDB.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+
+            <div class="section-heading">
+                <p>LET'S CONNECT</p>
+                <h2>Contact Me</h2>
+            </div>
+
+            <p>
+                Have a project idea or want to connect?
+                Feel free to contact me.
+            </p>
+
+            <div class="contact-details">
+
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:YOUR_EMAIL@example.com">
+                        salvonilahoria78@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    <strong>GitHub:</strong>
+                    <a href="https://github.com/salvonilahoria78-sudo"
+                        target="_blank" rel="noopener noreferrer">
+                        Visit My GitHub
+                    </a>
+                </p>
+
+                <p>
+                    <strong>LinkedIn:</strong>
+                    <a href="https://www.linkedin.com/in/salvoni-lahoriya-6233243a8/"
+                        target="_blank" rel="noopener noreferrer">
+                        Visit My LinkedIn
+                    </a>
+                </p>
+
+            </div>
 
         </section>
 
     </main>
-    <footer>
-        <p>&copy; 2024 My Profile. All rights reserved.</p>
-    </footer>
-</body>
 
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Salvoni. All Rights Reserved.</p>
+        <p>Designed with ❤️ using HTML & CSS</p>
+    </footer>
+
+</body>
 </html>
